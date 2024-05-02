@@ -10,7 +10,10 @@ pip install montecarlo
 ```
 ##### To import:         
 ```{python}
-import montecarlo
+from montecarlo.montecarlo import Die, Game, Analyzer
+import numpy as np
+import pandas as pd
+import itertools
 ```
 ##### To create die:     
 ```{python}
@@ -34,8 +37,14 @@ analyze1 = Analyzer(game1)
 Utilize method of choice for analyzation needs.
 ```{python}
 analyze1.jackpot()
+```
+```{python}
 analyze1.faces_per_roll()
-analyze1.count_permutation()
+```
+```{python}
+analyze1.count_combo()
+```
+```{python}
 analyze1.count_permutation()
 ```
                              
