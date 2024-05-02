@@ -1,0 +1,17 @@
+/home/uwa6xv/Documents/MSDS/DS5100/uwa6xv_ds5100_montecarlo/montecarlo
+-bash-4.4$python montecarlo_test.py 
+test_08_analyze_init (__main__.AnalyzerTestSuite.test_08_analyze_init) ... ok
+test_09_jackpot (__main__.AnalyzerTestSuite.test_09_jackpot) ... ok
+test_10_faces_per_roll (__main__.AnalyzerTestSuite.test_10_faces_per_roll) ... ok
+test_11_count_combo (__main__.AnalyzerTestSuite.test_11_count_combo) ... ok
+test_12_count_permutation (__main__.AnalyzerTestSuite.test_12_count_permutation) ... ok
+test_01_die_init (__main__.DieTestSuite.test_01_die_init) ... ok
+test_02_change_weight (__main__.DieTestSuite.test_02_change_weight) ... ok
+test_03_roll_die (__main__.DieTestSuite.test_03_roll_die) ... ok
+test_04_current_state (__main__.DieTestSuite.test_04_current_state) ... ok
+test_05_game_init (__main__.GameTestSuite.test_05_game_init) ... ok
+test_06_play (__main__.GameTestSuite.test_06_play) ... ok
+test_07_show_result (__main__.GameTestSuite.test_07_show_result) ... ok
+----------------------------------------------------------------------
+Ran 12 tests in 0.079s
+OK
